@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@media (min-width-900px){
+    .background {
+        width: 800px;        
+    }
+    .title {
+        font-size: 28px;
+    }
+    .subtitle {
+        font-size: 18px;
+    }
+    p {
+        font-size: 15px;
+    }    
+}
+
+@media (min-width-768px){
+    .background {
+        width: 750px;        
+    }
+    .title {
+        font-size: 25px;
+    }
+    .subtitle {
+        font-size: 17px;
+    }
+    p {
+        font-size: 13px;
+    }
+}
