@@ -12,6 +12,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /*If you set box-sizing: border-box; on an element, padding and border are included in the width and height. Neste caso, todos os boxes se manterão responsivos*/
 }
 
 body {
@@ -87,7 +88,7 @@ h4 {
 }
 .members, .discography {
     padding: 10px 30px 10px 50px;
-    width: 50vw;
+    width: 50%;
     line-height: 35px;
 }
 
